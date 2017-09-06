@@ -3,9 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>todo list to do</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <h1>2Doo list for you to do</h1>
+  <div>
+  	<form>
+	  	<div class="listBucket"><!-- This is the div where your list items go -->
+	  		<h2>My top Priorities</h2>
+	  		<ul></ul>
+	  	</div>
+
+	  	<section>
+	  		<label for="newTask">New Task</label>
+	  		<input id="newTask" type="text" name="new"></input>
+	  		<!-- <input id="butt" type="submit" name="new"></input> -->
+	  		<button id="butt">Add to list</button>
+	  	</section>
+  	</form>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+ <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

@@ -1,0 +1,21 @@
+div {
+	background: lightgreen;
+	border: 1px solid black;
+}
+h2 {
+	text-align: center;
+	text-decoration: underline;
+	font-style: italic;
+}
+.listBucket {
+	border: 5px solid yellow;
+	background: lightgrey;
+	height:auto;
+	font-size: 12pt;
+	font-family: arial, 'Sans-Serif';
+}
+section {
+	margin-top: 5px;
+	display: inline-block;
+	border: 2px dashed royalblue;
+}
